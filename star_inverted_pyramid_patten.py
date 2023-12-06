@@ -5,3 +5,11 @@ def invertedpyramid(n):
        j=j-1
   
 invertedpyramid(5)
+
+'''
+  * * * * *
+   * * * *
+    * * *
+     * *
+      *
+'''
