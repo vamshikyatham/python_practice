@@ -14,16 +14,16 @@ list. reverse() :-> reverse the list """
 list1 = [1, 2, 3, 4, 5, 6, 7, 8]
 print(list1)
 list1.append(9)
-print(f"After append :{list1}")
+print(f"9 append at the end :{list1}")
 
 # extend
 list2 = [10, 11]
 list1.extend(list2)
-print(f"After extend : {list1}")
+print(f"After extend adds 10,11 at the end : {list1}")
 
 # remove
 list1.remove(11)
-print(f"After remove the 11 element :{list1}")
+print(f"remove the 11 element :{list1}")
 
 # pop
 list1.pop()
